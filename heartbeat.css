@@ -1,0 +1,15 @@
+.path {
+  stroke-dasharray: 364;
+  stroke-dashoffset: 0;
+  //animation: dash 1.5s linear infinite;
+  //animation-play-state: paused;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 364;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
